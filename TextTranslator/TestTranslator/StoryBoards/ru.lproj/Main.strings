@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Translate"; ObjectID = "2Ot-Lr-FnT"; */
+"2Ot-Lr-FnT.normalTitle" = "Translate";
+
+/* Class = "UIButton"; normalTitle = "Select Target Language"; ObjectID = "2Za-sm-ACb"; */
+"2Za-sm-ACb.normalTitle" = "Select Target Language";
+
+/* Class = "UILabel"; text = "30 Sep 2023"; ObjectID = "JmF-Rs-GmQ"; */
+"JmF-Rs-GmQ.text" = "30 Sep 2023";
+
+/* Class = "UIViewController"; title = "History"; ObjectID = "VGU-XP-DXK"; */
+"VGU-XP-DXK.title" = "History";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YHv-ki-GU3"; */
+"YHv-ki-GU3.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "brK-8f-frc"; */
+"brK-8f-frc.text" = "Label";
+
+/* Class = "UIViewController"; title = "Translator"; ObjectID = "jS9-5t-rkC"; */
+"jS9-5t-rkC.title" = "Translator";
+
+/* Class = "UIButton"; normalTitle = "Select Source Language"; ObjectID = "pfb-ld-fi8"; */
+"pfb-ld-fi8.normalTitle" = "Select Source Language";

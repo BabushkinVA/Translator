@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LanguageMO" representedClassName="LanguageMO" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="asSource" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TranslationMO" inverseName="sourceLanguage" inverseEntity="TranslationMO"/>
+        <relationship name="asTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TranslationMO" inverseName="targetLanguage" inverseEntity="TranslationMO"/>
+    </entity>
+    <entity name="TranslationMO" representedClassName="TranslationMO" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sourceText" optional="YES" attributeType="String"/>
+        <attribute name="translatedText" optional="YES" attributeType="String"/>
+        <relationship name="sourceLanguage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LanguageMO" inverseName="asSource" inverseEntity="LanguageMO"/>
+        <relationship name="targetLanguage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LanguageMO" inverseName="asTarget" inverseEntity="LanguageMO"/>
+    </entity>
+</model>
